@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		861F6D020E7AA2280D910D1B /* Pods_TVOSToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE650BA1E358C90E31B80BA /* Pods_TVOSToast.framework */; };
+		B23D1A741C767711009DED9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1A731C767711009DED9C /* AppDelegate.swift */; };
+		B23D1A761C767711009DED9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1A751C767711009DED9C /* ViewController.swift */; };
+		B23D1A791C767711009DED9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23D1A771C767711009DED9C /* Main.storyboard */; };
+		B23D1A7B1C767711009DED9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23D1A7A1C767711009DED9C /* Assets.xcassets */; };
+		B23D1A861C767711009DED9C /* TVOSToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1A851C767711009DED9C /* TVOSToastTests.swift */; };
+		B23D1A911C767711009DED9C /* TVOSToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1A901C767711009DED9C /* TVOSToastUITests.swift */; };
+		B23D1AAA1C7677C0009DED9C /* tvosToastMenuBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1A9F1C7677C0009DED9C /* tvosToastMenuBlack.png */; };
+		B23D1AAB1C7677C0009DED9C /* tvosToastMenuWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA01C7677C0009DED9C /* tvosToastMenuWhite.png */; };
+		B23D1AAC1C7677C0009DED9C /* tvosToastPlayPauseBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA11C7677C0009DED9C /* tvosToastPlayPauseBlack.png */; };
+		B23D1AAD1C7677C0009DED9C /* tvosToastPlayPauseWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA21C7677C0009DED9C /* tvosToastPlayPauseWhite.png */; };
+		B23D1AAE1C7677C0009DED9C /* tvosToastScreenBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA31C7677C0009DED9C /* tvosToastScreenBlack.png */; };
+		B23D1AAF1C7677C0009DED9C /* tvosToastScreenWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA41C7677C0009DED9C /* tvosToastScreenWhite.png */; };
+		B23D1AB01C7677C0009DED9C /* tvosToastSiriBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA51C7677C0009DED9C /* tvosToastSiriBlack.png */; };
+		B23D1AB11C7677C0009DED9C /* tvosToastSiriWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA61C7677C0009DED9C /* tvosToastSiriWhite.png */; };
+		B23D1AB21C7677C0009DED9C /* tvosToastVolumeBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA71C7677C0009DED9C /* tvosToastVolumeBlack.png */; };
+		B23D1AB31C7677C0009DED9C /* tvosToastVolumeWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B23D1AA81C7677C0009DED9C /* tvosToastVolumeWhite.png */; };
+		B23D1AB41C7677C0009DED9C /* TVOSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1AA91C7677C0009DED9C /* TVOSToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B23D1A821C767711009DED9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23D1A681C767711009DED9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23D1A6F1C767711009DED9C;
+			remoteInfo = TVOSToast;
+		};
+		B23D1A8D1C767711009DED9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23D1A681C767711009DED9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23D1A6F1C767711009DED9C;
+			remoteInfo = TVOSToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14DB23EEE93B664B07CFEF61 /* Pods-TVOSToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast.release.xcconfig"; sourceTree = "<group>"; };
+		B23D1A701C767711009DED9C /* TVOSToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVOSToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23D1A731C767711009DED9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B23D1A751C767711009DED9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B23D1A781C767711009DED9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B23D1A7A1C767711009DED9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B23D1A7C1C767711009DED9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23D1A811C767711009DED9C /* TVOSToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVOSToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23D1A851C767711009DED9C /* TVOSToastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOSToastTests.swift; sourceTree = "<group>"; };
+		B23D1A871C767711009DED9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23D1A8C1C767711009DED9C /* TVOSToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVOSToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23D1A901C767711009DED9C /* TVOSToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOSToastUITests.swift; sourceTree = "<group>"; };
+		B23D1A921C767711009DED9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23D1A9F1C7677C0009DED9C /* tvosToastMenuBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastMenuBlack.png; sourceTree = "<group>"; };
+		B23D1AA01C7677C0009DED9C /* tvosToastMenuWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastMenuWhite.png; sourceTree = "<group>"; };
+		B23D1AA11C7677C0009DED9C /* tvosToastPlayPauseBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastPlayPauseBlack.png; sourceTree = "<group>"; };
+		B23D1AA21C7677C0009DED9C /* tvosToastPlayPauseWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastPlayPauseWhite.png; sourceTree = "<group>"; };
+		B23D1AA31C7677C0009DED9C /* tvosToastScreenBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastScreenBlack.png; sourceTree = "<group>"; };
+		B23D1AA41C7677C0009DED9C /* tvosToastScreenWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastScreenWhite.png; sourceTree = "<group>"; };
+		B23D1AA51C7677C0009DED9C /* tvosToastSiriBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastSiriBlack.png; sourceTree = "<group>"; };
+		B23D1AA61C7677C0009DED9C /* tvosToastSiriWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastSiriWhite.png; sourceTree = "<group>"; };
+		B23D1AA71C7677C0009DED9C /* tvosToastVolumeBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeBlack.png; sourceTree = "<group>"; };
+		B23D1AA81C7677C0009DED9C /* tvosToastVolumeWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeWhite.png; sourceTree = "<group>"; };
+		B23D1AA91C7677C0009DED9C /* TVOSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVOSToast.swift; sourceTree = "<group>"; };
+		EDE650BA1E358C90E31B80BA /* Pods_TVOSToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5799E49BA11F7BDEAB5651C /* Pods-TVOSToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23D1A6D1C767711009DED9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861F6D020E7AA2280D910D1B /* Pods_TVOSToast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23D1A7E1C767711009DED9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23D1A891C767711009DED9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1886A8CBAC79829AA99584F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDE650BA1E358C90E31B80BA /* Pods_TVOSToast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20A5AC66D8A24C43428F7F03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5799E49BA11F7BDEAB5651C /* Pods-TVOSToast.debug.xcconfig */,
+				14DB23EEE93B664B07CFEF61 /* Pods-TVOSToast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B23D1A671C767711009DED9C = {
+			isa = PBXGroup;
+			children = (
+				B23D1A721C767711009DED9C /* TVOSToast */,
+				B23D1A841C767711009DED9C /* TVOSToastTests */,
+				B23D1A8F1C767711009DED9C /* TVOSToastUITests */,
+				B23D1A711C767711009DED9C /* Products */,
+				20A5AC66D8A24C43428F7F03 /* Pods */,
+				1886A8CBAC79829AA99584F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B23D1A711C767711009DED9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23D1A701C767711009DED9C /* TVOSToast.app */,
+				B23D1A811C767711009DED9C /* TVOSToastTests.xctest */,
+				B23D1A8C1C767711009DED9C /* TVOSToastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23D1A721C767711009DED9C /* TVOSToast */ = {
+			isa = PBXGroup;
+			children = (
+				B23D1A9E1C7677C0009DED9C /* Resources */,
+				B23D1AA91C7677C0009DED9C /* TVOSToast.swift */,
+				B23D1A731C767711009DED9C /* AppDelegate.swift */,
+				B23D1A751C767711009DED9C /* ViewController.swift */,
+				B23D1A771C767711009DED9C /* Main.storyboard */,
+				B23D1A7A1C767711009DED9C /* Assets.xcassets */,
+				B23D1A7C1C767711009DED9C /* Info.plist */,
+			);
+			path = TVOSToast;
+			sourceTree = "<group>";
+		};
+		B23D1A841C767711009DED9C /* TVOSToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				B23D1A851C767711009DED9C /* TVOSToastTests.swift */,
+				B23D1A871C767711009DED9C /* Info.plist */,
+			);
+			path = TVOSToastTests;
+			sourceTree = "<group>";
+		};
+		B23D1A8F1C767711009DED9C /* TVOSToastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B23D1A901C767711009DED9C /* TVOSToastUITests.swift */,
+				B23D1A921C767711009DED9C /* Info.plist */,
+			);
+			path = TVOSToastUITests;
+			sourceTree = "<group>";
+		};
+		B23D1A9E1C7677C0009DED9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B23D1A9F1C7677C0009DED9C /* tvosToastMenuBlack.png */,
+				B23D1AA01C7677C0009DED9C /* tvosToastMenuWhite.png */,
+				B23D1AA11C7677C0009DED9C /* tvosToastPlayPauseBlack.png */,
+				B23D1AA21C7677C0009DED9C /* tvosToastPlayPauseWhite.png */,
+				B23D1AA31C7677C0009DED9C /* tvosToastScreenBlack.png */,
+				B23D1AA41C7677C0009DED9C /* tvosToastScreenWhite.png */,
+				B23D1AA51C7677C0009DED9C /* tvosToastSiriBlack.png */,
+				B23D1AA61C7677C0009DED9C /* tvosToastSiriWhite.png */,
+				B23D1AA71C7677C0009DED9C /* tvosToastVolumeBlack.png */,
+				B23D1AA81C7677C0009DED9C /* tvosToastVolumeWhite.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23D1A6F1C767711009DED9C /* TVOSToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23D1A951C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToast" */;
+			buildPhases = (
+				B95888D16C65D4A555BA7C92 /* Check Pods Manifest.lock */,
+				B23D1A6C1C767711009DED9C /* Sources */,
+				B23D1A6D1C767711009DED9C /* Frameworks */,
+				B23D1A6E1C767711009DED9C /* Resources */,
+				41E6927D69C2F3D1838A2C50 /* Embed Pods Frameworks */,
+				41BC8278FB39C11EC99C28EF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVOSToast;
+			productName = TVOSToast;
+			productReference = B23D1A701C767711009DED9C /* TVOSToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B23D1A801C767711009DED9C /* TVOSToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23D1A981C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToastTests" */;
+			buildPhases = (
+				B23D1A7D1C767711009DED9C /* Sources */,
+				B23D1A7E1C767711009DED9C /* Frameworks */,
+				B23D1A7F1C767711009DED9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23D1A831C767711009DED9C /* PBXTargetDependency */,
+			);
+			name = TVOSToastTests;
+			productName = TVOSToastTests;
+			productReference = B23D1A811C767711009DED9C /* TVOSToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B23D1A8B1C767711009DED9C /* TVOSToastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23D1A9B1C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToastUITests" */;
+			buildPhases = (
+				B23D1A881C767711009DED9C /* Sources */,
+				B23D1A891C767711009DED9C /* Frameworks */,
+				B23D1A8A1C767711009DED9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23D1A8E1C767711009DED9C /* PBXTargetDependency */,
+			);
+			name = TVOSToastUITests;
+			productName = TVOSToastUITests;
+			productReference = B23D1A8C1C767711009DED9C /* TVOSToastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23D1A681C767711009DED9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MovieLaLa;
+				TargetAttributes = {
+					B23D1A6F1C767711009DED9C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B23D1A801C767711009DED9C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B23D1A6F1C767711009DED9C;
+					};
+					B23D1A8B1C767711009DED9C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B23D1A6F1C767711009DED9C;
+					};
+				};
+			};
+			buildConfigurationList = B23D1A6B1C767711009DED9C /* Build configuration list for PBXProject "TVOSToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B23D1A671C767711009DED9C;
+			productRefGroup = B23D1A711C767711009DED9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23D1A6F1C767711009DED9C /* TVOSToast */,
+				B23D1A801C767711009DED9C /* TVOSToastTests */,
+				B23D1A8B1C767711009DED9C /* TVOSToastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23D1A6E1C767711009DED9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23D1AAE1C7677C0009DED9C /* tvosToastScreenBlack.png in Resources */,
+				B23D1AAD1C7677C0009DED9C /* tvosToastPlayPauseWhite.png in Resources */,
+				B23D1AB11C7677C0009DED9C /* tvosToastSiriWhite.png in Resources */,
+				B23D1AB31C7677C0009DED9C /* tvosToastVolumeWhite.png in Resources */,
+				B23D1A7B1C767711009DED9C /* Assets.xcassets in Resources */,
+				B23D1AAF1C7677C0009DED9C /* tvosToastScreenWhite.png in Resources */,
+				B23D1AAC1C7677C0009DED9C /* tvosToastPlayPauseBlack.png in Resources */,
+				B23D1AAA1C7677C0009DED9C /* tvosToastMenuBlack.png in Resources */,
+				B23D1AB21C7677C0009DED9C /* tvosToastVolumeBlack.png in Resources */,
+				B23D1AAB1C7677C0009DED9C /* tvosToastMenuWhite.png in Resources */,
+				B23D1A791C767711009DED9C /* Main.storyboard in Resources */,
+				B23D1AB01C7677C0009DED9C /* tvosToastSiriBlack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23D1A7F1C767711009DED9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23D1A8A1C767711009DED9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41BC8278FB39C11EC99C28EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41E6927D69C2F3D1838A2C50 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95888D16C65D4A555BA7C92 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23D1A6C1C767711009DED9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23D1AB41C7677C0009DED9C /* TVOSToast.swift in Sources */,
+				B23D1A761C767711009DED9C /* ViewController.swift in Sources */,
+				B23D1A741C767711009DED9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23D1A7D1C767711009DED9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23D1A861C767711009DED9C /* TVOSToastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23D1A881C767711009DED9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23D1A911C767711009DED9C /* TVOSToastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B23D1A831C767711009DED9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23D1A6F1C767711009DED9C /* TVOSToast */;
+			targetProxy = B23D1A821C767711009DED9C /* PBXContainerItemProxy */;
+		};
+		B23D1A8E1C767711009DED9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23D1A6F1C767711009DED9C /* TVOSToast */;
+			targetProxy = B23D1A8D1C767711009DED9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B23D1A771C767711009DED9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23D1A781C767711009DED9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23D1A931C767711009DED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B23D1A941C767711009DED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23D1A961C767711009DED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5799E49BA11F7BDEAB5651C /* Pods-TVOSToast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVOSToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B23D1A971C767711009DED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DB23EEE93B664B07CFEF61 /* Pods-TVOSToast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVOSToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B23D1A991C767711009DED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVOSToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOSToast.app/TVOSToast";
+			};
+			name = Debug;
+		};
+		B23D1A9A1C767711009DED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TVOSToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOSToast.app/TVOSToast";
+			};
+			name = Release;
+		};
+		B23D1A9C1C767711009DED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TVOSToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TVOSToast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B23D1A9D1C767711009DED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TVOSToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TVOSToast;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23D1A6B1C767711009DED9C /* Build configuration list for PBXProject "TVOSToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23D1A931C767711009DED9C /* Debug */,
+				B23D1A941C767711009DED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23D1A951C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23D1A961C767711009DED9C /* Debug */,
+				B23D1A971C767711009DED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23D1A981C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23D1A991C767711009DED9C /* Debug */,
+				B23D1A9A1C767711009DED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23D1A9B1C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23D1A9C1C767711009DED9C /* Debug */,
+				B23D1A9D1C767711009DED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23D1A681C767711009DED9C /* Project object */;
+}
