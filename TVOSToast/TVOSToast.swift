@@ -69,7 +69,7 @@ public enum TVOSToastRemoteButtonType: String {
   case VolumeBlack = "VolumeBlack"
 
   private func getImageName() -> String {
-    return "tvosToast\(rawValue)"
+    return "tvosToast\(rawValue).png"
   }
 
   public func getAttributedString(bounds: CGRect? = nil) -> NSAttributedString {
