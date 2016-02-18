@@ -83,11 +83,11 @@ public class TVOSToastHintText {
 
   public var elements: [Any]
 
-  init(elements: Any...) {
+  public init(elements: Any...) {
     self.elements = elements
   }
 
-  func buildAttributedString(font: UIFont, textColor: UIColor) -> NSAttributedString {
+  public func buildAttributedString(font: UIFont, textColor: UIColor) -> NSAttributedString {
     let mutableAttributedString = NSMutableAttributedString()
     for element in elements {
       if let text = element as? String  {
