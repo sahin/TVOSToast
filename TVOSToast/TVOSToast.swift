@@ -36,9 +36,9 @@ public extension NSAttributedString {
     self.init(string: text, attributes: attributes)
   }
 
-  public convenience init(imageName: String, bounds: CGRect?) {
+  public convenience init(imageName: String, bounds: CGRect?, bundle: NSBundle) {
     let textAttachment = NSTextAttachment()
-    textAttachment.image = UIImage(named: imageName)
+    textAttachment.image = UIImage(named: imageName, inBundle: bundle, compatibleWithTraitCollection: nil)
     if let bounds = bounds {
       textAttachment.bounds = bounds
     }
@@ -73,7 +73,7 @@ public enum TVOSToastRemoteButtonType: String {
   }
 
   public func getAttributedString(bounds: CGRect? = nil) -> NSAttributedString {
-    return  NSAttributedString(imageName: self.getImageName(), bounds: bounds)
+    return  NSAttributedString(imageName: self.getImageName(), bounds: bounds, bundle: NSBundle(forClass: TVOSToast.self))
   }
 }
 
