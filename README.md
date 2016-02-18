@@ -3,7 +3,8 @@ TVOSToast
 
 Toast component for tvOS with built-in siri remote hint support !
 
-It looks like this
+It looks like this:  
+  
 ![alt tag](https://raw.githubusercontent.com/cemolcay/TVOSToast/master/toast.png)
 
 Installation
