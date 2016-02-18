@@ -25,6 +25,15 @@ Since `TVOSToastStyle` is a struct and all of properties are optional, you can s
 
 Highlights of style are presentation position (top left, bottom right etc), show duration, text style and appearance properties
 
+For toast content you have several options:
+
+* `text: String?`
+* `attributedText: NSAttributedString?` 
+* `hintText: TVOSToastHintText?`
+* `customContent: UIView?`
+
+Setting up one of these are enough for your toast !
+
 ``` swift
     let toast = TVOSToast(frame: CGRect(x: 0, y: 0, width: 800, height: 140))
     toast.style.position = TVOSToastPosition.TopRight(insets: 20)
