@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ALKit
 import ManualLayout
 
 // MARK: - UIViewController Extension
@@ -183,9 +182,6 @@ public class TVOSToast: UIView {
     textLabel?.numberOfLines = 0
     textLabel?.textAlignment = .Center
     addSubview(textLabel!)
-    // constraints
-    customContentView?.fill(toView: self, withInset: UIEdgeInsets(inset: 10))
-    textLabel?.fill(toView: self, withInset: UIEdgeInsets(inset: 10))
   }
 
   // MARK: Present

@@ -1,13 +1,10 @@
 PODS:
-  - ALKit (0.4)
   - ManualLayout (1.2.1)
 
 DEPENDENCIES:
-  - ALKit
   - ManualLayout
 
 SPEC CHECKSUMS:
-  ALKit: 8e9bc8c4740c959431a9105d2050fa7cc90e48d8
   ManualLayout: 7326e29d60370c9fdfa41338f87f0b0ae350bf54
 
 COCOAPODS: 0.39.0

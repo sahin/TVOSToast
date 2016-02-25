@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '07BAED8C82486041386AD6D9'
+               BlueprintIdentifier = 'B59FB8F9DB5F1146748CA5A5'
                BlueprintName = 'ManualLayout'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ManualLayout.framework'>

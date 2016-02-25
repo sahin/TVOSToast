@@ -7,36 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C1D1FAF7F7B4A9813D49D76266E9970 /* UIScrollView+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789369CBAC8A51E6218B14FDFD236FF0 /* UIScrollView+ManualLayout.swift */; };
-		1F5CE2FF9D6E566D14DAD64188F72363 /* CALayer+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F355209B2F6A3F45B9B99E9E3044A /* CALayer+ManualLayout.swift */; };
-		290B80530BCDCE7203BB3728879E11FC /* Pods-TVOSToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB46A0D2CCDA1F01A1975B6B0BB6AE2 /* Pods-TVOSToast-dummy.m */; };
-		2E107852E300345A827147A2FB1F5200 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A4067DC286FFC9C73E1ADEF10CCFA9 /* HelperFunctions.swift */; };
-		30CE02E27C39F644961035CB3A7464B3 /* ALKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB455055C6E3F06F78A2D6CC7E3A0BCA /* ALKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39C3AF6A9B65EF1BE31028D8DA290260 /* ManualLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F559BF846C5F544791BF62D6B1600F /* ManualLayout-dummy.m */; };
-		3D6B256CA8FF7812A7DAF943F4B658F8 /* ALKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9461890E2BA53675DCBBE87D5D5DE196 /* ALKit-dummy.m */; };
-		4B795316DD66BE4E7074393B9CC97CFC /* Pods-TVOSToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4779CE12D626D6E8345552A7ABFF6E71 /* Pods-TVOSToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1D1FAF7F7B4A9813D49D76266E9970 /* UIScrollView+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83055A8BEA999ECD21148AE9A4163A /* UIScrollView+ManualLayout.swift */; };
+		108BC9B91D4D5B17BAF6D7BA5D167429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D752F4AFC91CCA2951AC6DE9E54BBD /* Foundation.framework */; };
+		1F5CE2FF9D6E566D14DAD64188F72363 /* CALayer+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4817AC41D1ED79D0C8B5EC7E11B345 /* CALayer+ManualLayout.swift */; };
+		20579D2F30057F045373721B6551EC25 /* Pods-TVOSToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4779CE12D626D6E8345552A7ABFF6E71 /* Pods-TVOSToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E107852E300345A827147A2FB1F5200 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264659A9935232F374A0F4FC384708F7 /* HelperFunctions.swift */; };
+		39C3AF6A9B65EF1BE31028D8DA290260 /* ManualLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 916BDE565570AF9B90F2D8E68CAB80E1 /* ManualLayout-dummy.m */; };
 		4F67ABFB447B5D316736961CFCF05169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28759A07EE01A78D8999B106204F9CD3 /* UIKit.framework */; };
-		551DE988F7C7C66507D19B796B47A5BF /* ManualLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D93F5BE48F5E46D8CEA682E3FBBF5AC /* ManualLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EC2476917E0C8764008DF30CADF7618 /* UIViewController+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE3DD2C99BA35ECE8E384BD6635703B /* UIViewController+ManualLayout.swift */; };
+		551DE988F7C7C66507D19B796B47A5BF /* ManualLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A5590DADB8764839C7FA78260C70627D /* ManualLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC2476917E0C8764008DF30CADF7618 /* UIViewController+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDFE4D26493B31BF0C5245A592FE663 /* UIViewController+ManualLayout.swift */; };
 		6BF7E71DD14E67CAF17FA9A50B409E59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D752F4AFC91CCA2951AC6DE9E54BBD /* Foundation.framework */; };
-		745EB3D31907C288C41CEC4ED8DDAAC2 /* CGRect+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD828B9EF546A552F950FB79FDFF60 /* CGRect+ManualLayout.swift */; };
-		7CAA1BB400C004C8E9FA623F92289622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D752F4AFC91CCA2951AC6DE9E54BBD /* Foundation.framework */; };
-		8D9491CB7F1273494091B83B705C28C1 /* SmartAssign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430814115745F82E7FBF9F5FBC34703 /* SmartAssign.swift */; };
-		9C916C0EBC529957DACFBF1AFF311ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D752F4AFC91CCA2951AC6DE9E54BBD /* Foundation.framework */; };
-		9E6E9FD7B1598C7AE64650CD901E5FD4 /* UIView+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DEBAF897CFEE5F0FE55AF21C66120 /* UIView+ManualLayout.swift */; };
-		C73BCDA568019CFDC002E40372B3E3AB /* ManualLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9F702489FC37FC792978C84F820656 /* ManualLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE4804691C452E1D229B0EBE1FD7DB81 /* ALKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1C172472C4CC2106BA265F340A9A1 /* ALKit.swift */; };
+		745EB3D31907C288C41CEC4ED8DDAAC2 /* CGRect+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F167B8AAFFC3961C2E306095347638 /* CGRect+ManualLayout.swift */; };
+		8D9491CB7F1273494091B83B705C28C1 /* SmartAssign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528D2C699324B6CDEC8CEB66E050DCD /* SmartAssign.swift */; };
+		9E6E9FD7B1598C7AE64650CD901E5FD4 /* UIView+ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30146D0D4A27E49502182E55D2F5F88 /* UIView+ManualLayout.swift */; };
+		A68753625FC297D6BB83B307D6C1DA4B /* Pods-TVOSToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB46A0D2CCDA1F01A1975B6B0BB6AE2 /* Pods-TVOSToast-dummy.m */; };
+		C73BCDA568019CFDC002E40372B3E3AB /* ManualLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 021B78B042D08744DCD876BA525F5AEB /* ManualLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A821AF8BD063F9753D8CC67AC43CEA05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9E6D5C04D74F1040CE54AE8BE4A7DC7;
-			remoteInfo = ALKit;
-		};
-		F1A9085B5A430BED13B1DE31AD51EC29 /* PBXContainerItemProxy */ = {
+		3CE5C60E9950970BE84615A985A4AFFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -46,54 +35,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E1A6A4504D6061B245B5E3E65BDA42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03F559BF846C5F544791BF62D6B1600F /* ManualLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManualLayout-dummy.m"; sourceTree = "<group>"; };
-		18BD828B9EF546A552F950FB79FDFF60 /* CGRect+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+ManualLayout.swift"; path = "ManualLayout/CGRect+ManualLayout.swift"; sourceTree = "<group>"; };
+		021B78B042D08744DCD876BA525F5AEB /* ManualLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualLayout-umbrella.h"; sourceTree = "<group>"; };
+		178D21B9EBE98AE64DDDDC2B253771CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		193788F09772EA9526D2D44EBE487AFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19641813FDDE366A2F7D31093DFE12AC /* ALKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALKit.modulemap; sourceTree = "<group>"; };
 		1E97F7DB22C9EB8EC2C86BAE63EBFD36 /* Pods-TVOSToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVOSToast.release.xcconfig"; sourceTree = "<group>"; };
-		2430814115745F82E7FBF9F5FBC34703 /* SmartAssign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartAssign.swift; path = ManualLayout/SmartAssign.swift; sourceTree = "<group>"; };
-		26B201501B50CD4333904F86795C542E /* ManualLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualLayout-prefix.pch"; sourceTree = "<group>"; };
+		2589211823FF7D7D243234C4231239D9 /* ManualLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ManualLayout.modulemap; sourceTree = "<group>"; };
+		264659A9935232F374A0F4FC384708F7 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = ManualLayout/HelperFunctions.swift; sourceTree = "<group>"; };
 		28759A07EE01A78D8999B106204F9CD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2FDFE4D26493B31BF0C5245A592FE663 /* UIViewController+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+ManualLayout.swift"; path = "ManualLayout/UIViewController+ManualLayout.swift"; sourceTree = "<group>"; };
 		3810227202C33A41AF9618DD2AEA60E9 /* Pods-TVOSToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TVOSToast.modulemap"; sourceTree = "<group>"; };
 		4779CE12D626D6E8345552A7ABFF6E71 /* Pods-TVOSToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVOSToast-umbrella.h"; sourceTree = "<group>"; };
-		4BE3DD2C99BA35ECE8E384BD6635703B /* UIViewController+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+ManualLayout.swift"; path = "ManualLayout/UIViewController+ManualLayout.swift"; sourceTree = "<group>"; };
-		4C760C8CBAD504B9233A9FC83CD9DE34 /* ManualLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ManualLayout.modulemap; sourceTree = "<group>"; };
 		4DB46A0D2CCDA1F01A1975B6B0BB6AE2 /* Pods-TVOSToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVOSToast-dummy.m"; sourceTree = "<group>"; };
-		515DEBAF897CFEE5F0FE55AF21C66120 /* UIView+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+ManualLayout.swift"; path = "ManualLayout/UIView+ManualLayout.swift"; sourceTree = "<group>"; };
-		789369CBAC8A51E6218B14FDFD236FF0 /* UIScrollView+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ManualLayout.swift"; path = "ManualLayout/UIScrollView+ManualLayout.swift"; sourceTree = "<group>"; };
-		7AA1C172472C4CC2106BA265F340A9A1 /* ALKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALKit.swift; path = ALKit/ALKit/ALKit.swift; sourceTree = "<group>"; };
-		7D93F5BE48F5E46D8CEA682E3FBBF5AC /* ManualLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManualLayout.h; path = ManualLayout/ManualLayout.h; sourceTree = "<group>"; };
+		52F167B8AAFFC3961C2E306095347638 /* CGRect+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+ManualLayout.swift"; path = "ManualLayout/CGRect+ManualLayout.swift"; sourceTree = "<group>"; };
+		6D4B165B3BDB84A7F0E1383A913FA890 /* ManualLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManualLayout.xcconfig; sourceTree = "<group>"; };
 		86A889DD0A3435F918415B11AD0CDE30 /* Pods-TVOSToast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVOSToast-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89DED6C2F07CE63C5CB19E4FFE1C2C6A /* Pods-TVOSToast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVOSToast-resources.sh"; sourceTree = "<group>"; };
 		8B638D1661B1548B9A6DEE3061DF2036 /* Pods-TVOSToast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVOSToast-frameworks.sh"; sourceTree = "<group>"; };
-		936A8A845FCEA03A7513ED6F5165871C /* Pods_TVOSToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9461890E2BA53675DCBBE87D5D5DE196 /* ALKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALKit-dummy.m"; sourceTree = "<group>"; };
+		916BDE565570AF9B90F2D8E68CAB80E1 /* ManualLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManualLayout-dummy.m"; sourceTree = "<group>"; };
 		97A6D00941A0191C6EDC2AEA0B3758EC /* Pods-TVOSToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVOSToast.debug.xcconfig"; sourceTree = "<group>"; };
-		9B9F702489FC37FC792978C84F820656 /* ManualLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualLayout-umbrella.h"; sourceTree = "<group>"; };
-		AB455055C6E3F06F78A2D6CC7E3A0BCA /* ALKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALKit-umbrella.h"; sourceTree = "<group>"; };
+		992D25818B1AC78B0A1AFD87C4B9766E /* ManualLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ManualLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4817AC41D1ED79D0C8B5EC7E11B345 /* CALayer+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+ManualLayout.swift"; path = "ManualLayout/CALayer+ManualLayout.swift"; sourceTree = "<group>"; };
+		A5590DADB8764839C7FA78260C70627D /* ManualLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManualLayout.h; path = ManualLayout/ManualLayout.h; sourceTree = "<group>"; };
+		B18CA8E5E6BF2247CDF8992ABCDB040F /* Pods_TVOSToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30146D0D4A27E49502182E55D2F5F88 /* UIView+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+ManualLayout.swift"; path = "ManualLayout/UIView+ManualLayout.swift"; sourceTree = "<group>"; };
 		B912DC84FAAD0AE063C3C378B33729B1 /* Pods-TVOSToast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVOSToast-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0A4067DC286FFC9C73E1ADEF10CCFA9 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = ManualLayout/HelperFunctions.swift; sourceTree = "<group>"; };
-		CE5EA577EBC597BB8CCC07217D7789EF /* ALKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALKit-prefix.pch"; sourceTree = "<group>"; };
-		CE7F355209B2F6A3F45B9B99E9E3044A /* CALayer+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+ManualLayout.swift"; path = "ManualLayout/CALayer+ManualLayout.swift"; sourceTree = "<group>"; };
+		CFB6F0FED411FAB6229755B4861BD1E4 /* ManualLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManualLayout-prefix.pch"; sourceTree = "<group>"; };
 		D4D752F4AFC91CCA2951AC6DE9E54BBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DE2862F0A8DF4A5BC76EA2EA09D18351 /* ManualLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ManualLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE734A4E31298FAB5FB601A1E4D603F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E49D786DE13028DA6750E592C3C90872 /* ALKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB6E05D71CA2672929DB991FBE8CFBEB /* ALKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALKit.xcconfig; sourceTree = "<group>"; };
-		EEC219BF85507E6EA4CCC47B556CEF0B /* ManualLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManualLayout.xcconfig; sourceTree = "<group>"; };
+		E528D2C699324B6CDEC8CEB66E050DCD /* SmartAssign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartAssign.swift; path = ManualLayout/SmartAssign.swift; sourceTree = "<group>"; };
+		EC83055A8BEA999ECD21148AE9A4163A /* UIScrollView+ManualLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ManualLayout.swift"; path = "ManualLayout/UIScrollView+ManualLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C805C1776D82700AA0C23C38B6516C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C916C0EBC529957DACFBF1AFF311ACE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A08E13D63D86A794A716FA0A4436A0E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,11 +76,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3F502509B0071EEF152C61A1D8D26F1 /* Frameworks */ = {
+		BB59AD63C1D122928565842D239ED51A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CAA1BB400C004C8E9FA623F92289622 /* Foundation.framework in Frameworks */,
+				108BC9B91D4D5B17BAF6D7BA5D167429 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,12 +105,11 @@
 			path = "Target Support Files/Pods-TVOSToast";
 			sourceTree = "<group>";
 		};
-		2F9E3F7A46BDBFA961CEBF78A2985905 /* Products */ = {
+		2F45B608B456E7D8B79E76FB14FD8DAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E49D786DE13028DA6750E592C3C90872 /* ALKit.framework */,
-				DE2862F0A8DF4A5BC76EA2EA09D18351 /* ManualLayout.framework */,
-				936A8A845FCEA03A7513ED6F5165871C /* Pods_TVOSToast.framework */,
+				992D25818B1AC78B0A1AFD87C4B9766E /* ManualLayout.framework */,
+				B18CA8E5E6BF2247CDF8992ABCDB040F /* Pods_TVOSToast.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,19 +136,10 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				6EC461C1435A31577346ED4ADA0BD5A9 /* Frameworks */,
-				BE4EABC9B2437760C788F735E5BAAC30 /* Pods */,
-				2F9E3F7A46BDBFA961CEBF78A2985905 /* Products */,
+				EE10B0A47411E059546937A6469BD7DC /* Pods */,
+				2F45B608B456E7D8B79E76FB14FD8DAD /* Products */,
 				B146CB8D81CE37FDA5024BE30A151F1B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		88E53208A6E7DD653A5FDD338F489B4F /* ALKit */ = {
-			isa = PBXGroup;
-			children = (
-				7AA1C172472C4CC2106BA265F340A9A1 /* ALKit.swift */,
-				DFA089C5C93BEDF4ABF46BF50102343D /* Support Files */,
-			);
-			path = ALKit;
 			sourceTree = "<group>";
 		};
 		B146CB8D81CE37FDA5024BE30A151F1B /* Targets Support Files */ = {
@@ -187,57 +150,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BE4EABC9B2437760C788F735E5BAAC30 /* Pods */ = {
+		D3A9C0C9718A9AB89BB0C7717237C723 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88E53208A6E7DD653A5FDD338F489B4F /* ALKit */,
-				C2A6A82C399A1958BFC2676C1F7C92F4 /* ManualLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C2A6A82C399A1958BFC2676C1F7C92F4 /* ManualLayout */ = {
-			isa = PBXGroup;
-			children = (
-				CE7F355209B2F6A3F45B9B99E9E3044A /* CALayer+ManualLayout.swift */,
-				18BD828B9EF546A552F950FB79FDFF60 /* CGRect+ManualLayout.swift */,
-				C0A4067DC286FFC9C73E1ADEF10CCFA9 /* HelperFunctions.swift */,
-				7D93F5BE48F5E46D8CEA682E3FBBF5AC /* ManualLayout.h */,
-				2430814115745F82E7FBF9F5FBC34703 /* SmartAssign.swift */,
-				789369CBAC8A51E6218B14FDFD236FF0 /* UIScrollView+ManualLayout.swift */,
-				515DEBAF897CFEE5F0FE55AF21C66120 /* UIView+ManualLayout.swift */,
-				4BE3DD2C99BA35ECE8E384BD6635703B /* UIViewController+ManualLayout.swift */,
-				CF7FA4057F0135CD42B9977D689C4CBA /* Support Files */,
-			);
-			path = ManualLayout;
-			sourceTree = "<group>";
-		};
-		CF7FA4057F0135CD42B9977D689C4CBA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE734A4E31298FAB5FB601A1E4D603F7 /* Info.plist */,
-				4C760C8CBAD504B9233A9FC83CD9DE34 /* ManualLayout.modulemap */,
-				EEC219BF85507E6EA4CCC47B556CEF0B /* ManualLayout.xcconfig */,
-				03F559BF846C5F544791BF62D6B1600F /* ManualLayout-dummy.m */,
-				26B201501B50CD4333904F86795C542E /* ManualLayout-prefix.pch */,
-				9B9F702489FC37FC792978C84F820656 /* ManualLayout-umbrella.h */,
+				178D21B9EBE98AE64DDDDC2B253771CD /* Info.plist */,
+				2589211823FF7D7D243234C4231239D9 /* ManualLayout.modulemap */,
+				6D4B165B3BDB84A7F0E1383A913FA890 /* ManualLayout.xcconfig */,
+				916BDE565570AF9B90F2D8E68CAB80E1 /* ManualLayout-dummy.m */,
+				CFB6F0FED411FAB6229755B4861BD1E4 /* ManualLayout-prefix.pch */,
+				021B78B042D08744DCD876BA525F5AEB /* ManualLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ManualLayout";
 			sourceTree = "<group>";
 		};
-		DFA089C5C93BEDF4ABF46BF50102343D /* Support Files */ = {
+		E478DB7770393B7BC7FDE674161A9E8D /* ManualLayout */ = {
 			isa = PBXGroup;
 			children = (
-				19641813FDDE366A2F7D31093DFE12AC /* ALKit.modulemap */,
-				EB6E05D71CA2672929DB991FBE8CFBEB /* ALKit.xcconfig */,
-				9461890E2BA53675DCBBE87D5D5DE196 /* ALKit-dummy.m */,
-				CE5EA577EBC597BB8CCC07217D7789EF /* ALKit-prefix.pch */,
-				AB455055C6E3F06F78A2D6CC7E3A0BCA /* ALKit-umbrella.h */,
-				01E1A6A4504D6061B245B5E3E65BDA42 /* Info.plist */,
+				9B4817AC41D1ED79D0C8B5EC7E11B345 /* CALayer+ManualLayout.swift */,
+				52F167B8AAFFC3961C2E306095347638 /* CGRect+ManualLayout.swift */,
+				264659A9935232F374A0F4FC384708F7 /* HelperFunctions.swift */,
+				A5590DADB8764839C7FA78260C70627D /* ManualLayout.h */,
+				E528D2C699324B6CDEC8CEB66E050DCD /* SmartAssign.swift */,
+				EC83055A8BEA999ECD21148AE9A4163A /* UIScrollView+ManualLayout.swift */,
+				B30146D0D4A27E49502182E55D2F5F88 /* UIView+ManualLayout.swift */,
+				2FDFE4D26493B31BF0C5245A592FE663 /* UIViewController+ManualLayout.swift */,
+				D3A9C0C9718A9AB89BB0C7717237C723 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ALKit";
+			path = ManualLayout;
+			sourceTree = "<group>";
+		};
+		EE10B0A47411E059546937A6469BD7DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E478DB7770393B7BC7FDE674161A9E8D /* ManualLayout */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,42 +200,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AED55F900894E05FDB2EC862BD5A886 /* Headers */ = {
+		CB073EB5CEC76409601A19E7843FCCEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B795316DD66BE4E7074393B9CC97CFC /* Pods-TVOSToast-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA6A359203C9220CC8E852BD1540755C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30CE02E27C39F644961035CB3A7464B3 /* ALKit-umbrella.h in Headers */,
+				20579D2F30057F045373721B6551EC25 /* Pods-TVOSToast-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4A637846042529EDBCF74510BB948F2A /* Pods-TVOSToast */ = {
+		056E056B73A857E9AEDC65ACBFADD2DF /* Pods-TVOSToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70A5A51F28F9811A953C267DA1F58671 /* Build configuration list for PBXNativeTarget "Pods-TVOSToast" */;
+			buildConfigurationList = C6492F96CE3B120040EF8FE7984ED7BF /* Build configuration list for PBXNativeTarget "Pods-TVOSToast" */;
 			buildPhases = (
-				6B85675D8AE6DA51BEA439AC5FED7AD4 /* Sources */,
-				0C805C1776D82700AA0C23C38B6516C6 /* Frameworks */,
-				9AED55F900894E05FDB2EC862BD5A886 /* Headers */,
+				4BA3C656FAB2CC01341DD7A4E2131D4B /* Sources */,
+				BB59AD63C1D122928565842D239ED51A /* Frameworks */,
+				CB073EB5CEC76409601A19E7843FCCEA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1F695A1C753A874826EB44F65656446 /* PBXTargetDependency */,
-				72A14822490AAF71B6F42D0C5EDCA88A /* PBXTargetDependency */,
+				85A8437F2AC9DE614B81674F09D52B28 /* PBXTargetDependency */,
 			);
 			name = "Pods-TVOSToast";
 			productName = "Pods-TVOSToast";
-			productReference = 936A8A845FCEA03A7513ED6F5165871C /* Pods_TVOSToast.framework */;
+			productReference = B18CA8E5E6BF2247CDF8992ABCDB040F /* Pods_TVOSToast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		69677992D5950BDD28B45D216F85CFFB /* ManualLayout */ = {
@@ -304,24 +243,7 @@
 			);
 			name = ManualLayout;
 			productName = ManualLayout;
-			productReference = DE2862F0A8DF4A5BC76EA2EA09D18351 /* ManualLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F9E6D5C04D74F1040CE54AE8BE4A7DC7 /* ALKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD2F68BE9476CEE25BFA2C8DB6E7B8A4 /* Build configuration list for PBXNativeTarget "ALKit" */;
-			buildPhases = (
-				55CD0F75B85DFF37A8599E09A2D142B7 /* Sources */,
-				D3F502509B0071EEF152C61A1D8D26F1 /* Frameworks */,
-				AA6A359203C9220CC8E852BD1540755C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ALKit;
-			productName = ALKit;
-			productReference = E49D786DE13028DA6750E592C3C90872 /* ALKit.framework */;
+			productReference = 992D25818B1AC78B0A1AFD87C4B9766E /* ManualLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -341,32 +263,22 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2F9E3F7A46BDBFA961CEBF78A2985905 /* Products */;
+			productRefGroup = 2F45B608B456E7D8B79E76FB14FD8DAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9E6D5C04D74F1040CE54AE8BE4A7DC7 /* ALKit */,
 				69677992D5950BDD28B45D216F85CFFB /* ManualLayout */,
-				4A637846042529EDBCF74510BB948F2A /* Pods-TVOSToast */,
+				056E056B73A857E9AEDC65ACBFADD2DF /* Pods-TVOSToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55CD0F75B85DFF37A8599E09A2D142B7 /* Sources */ = {
+		4BA3C656FAB2CC01341DD7A4E2131D4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D6B256CA8FF7812A7DAF943F4B658F8 /* ALKit-dummy.m in Sources */,
-				FE4804691C452E1D229B0EBE1FD7DB81 /* ALKit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B85675D8AE6DA51BEA439AC5FED7AD4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				290B80530BCDCE7203BB3728879E11FC /* Pods-TVOSToast-dummy.m in Sources */,
+				A68753625FC297D6BB83B307D6C1DA4B /* Pods-TVOSToast-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,24 +300,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		72A14822490AAF71B6F42D0C5EDCA88A /* PBXTargetDependency */ = {
+		85A8437F2AC9DE614B81674F09D52B28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ManualLayout;
 			target = 69677992D5950BDD28B45D216F85CFFB /* ManualLayout */;
-			targetProxy = F1A9085B5A430BED13B1DE31AD51EC29 /* PBXContainerItemProxy */;
-		};
-		C1F695A1C753A874826EB44F65656446 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ALKit;
-			target = F9E6D5C04D74F1040CE54AE8BE4A7DC7 /* ALKit */;
-			targetProxy = A821AF8BD063F9753D8CC67AC43CEA05 /* PBXContainerItemProxy */;
+			targetProxy = 3CE5C60E9950970BE84615A985A4AFFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		145F32ACCE631C6279A03ECB99200111 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEC219BF85507E6EA4CCC47B556CEF0B /* ManualLayout.xcconfig */;
+			baseConfigurationReference = 6D4B165B3BDB84A7F0E1383A913FA890 /* ManualLayout.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -429,7 +335,7 @@
 		};
 		190D2E6863001AB13C7765527EE14F7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEC219BF85507E6EA4CCC47B556CEF0B /* ManualLayout.xcconfig */;
+			baseConfigurationReference = 6D4B165B3BDB84A7F0E1383A913FA890 /* ManualLayout.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -451,30 +357,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1DDA9071A1523EBEC8F1A392AF786C7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB6E05D71CA2672929DB991FBE8CFBEB /* ALKit.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ALKit/ALKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALKit/ALKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ALKit;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		61E9C960176A58563D21517D299990A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -515,32 +397,7 @@
 			};
 			name = Debug;
 		};
-		739DC1F250A2B136A5E527865CF5DA83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB6E05D71CA2672929DB991FBE8CFBEB /* ALKit.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ALKit/ALKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALKit/ALKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ALKit;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9F979A312A7A270D56B2460F8EBD730F /* Debug */ = {
+		A8919CE7C6590632A157FF0FD7B6BBDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97A6D00941A0191C6EDC2AEA0B3758EC /* Pods-TVOSToast.debug.xcconfig */;
 			buildSettings = {
@@ -602,7 +459,7 @@
 			};
 			name = Release;
 		};
-		F3BCF4948B05473F967A7EA831057F8D /* Release */ = {
+		E7D5595408CD96C7989696DF5D59EF8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E97F7DB22C9EB8EC2C86BAE63EBFD36 /* Pods-TVOSToast.release.xcconfig */;
 			buildSettings = {
@@ -650,20 +507,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70A5A51F28F9811A953C267DA1F58671 /* Build configuration list for PBXNativeTarget "Pods-TVOSToast" */ = {
+		C6492F96CE3B120040EF8FE7984ED7BF /* Build configuration list for PBXNativeTarget "Pods-TVOSToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F979A312A7A270D56B2460F8EBD730F /* Debug */,
-				F3BCF4948B05473F967A7EA831057F8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD2F68BE9476CEE25BFA2C8DB6E7B8A4 /* Build configuration list for PBXNativeTarget "ALKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				739DC1F250A2B136A5E527865CF5DA83 /* Debug */,
-				1DDA9071A1523EBEC8F1A392AF786C7F /* Release */,
+				A8919CE7C6590632A157FF0FD7B6BBDA /* Debug */,
+				E7D5595408CD96C7989696DF5D59EF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

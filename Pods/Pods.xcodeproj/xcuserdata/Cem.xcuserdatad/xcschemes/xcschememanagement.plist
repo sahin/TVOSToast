@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ALKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>ManualLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4A637846042529EDBCF74510BB948F2A</key>
+		<key>056E056B73A857E9AEDC65ACBFADD2DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>69677992D5950BDD28B45D216F85CFFB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F9E6D5C04D74F1040CE54AE8BE4A7DC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
