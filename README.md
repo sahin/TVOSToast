@@ -78,3 +78,11 @@ Toast
 ----
 
 You can directly call `TVOSToast`s `presentOnView:` function to toast in a view or call `presentToast:` function of `UIViewController` which is an extension to present toast in view controller's view.
+
+
+### Authors
+* [Cem Olcay](https://github.com/cemolcay)
+
+### Other tvOS projects
+* [TVOSSlideViewController](https://github.com/movielala/TVOSSlideViewController)
+* [TVOSButton](https://github.com/movielala/TVOSButton)
