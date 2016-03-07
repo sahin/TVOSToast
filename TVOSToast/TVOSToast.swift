@@ -105,8 +105,8 @@ public class TVOSToastHintText {
 
   public var elements: [ToastElement]
 
-  public init(elements: [ToastElement]) {
-    self.elements = elements
+  public init(element: [ToastElement]) {
+    self.elements = element
   }
 
   public func buildAttributedString(font: UIFont, textColor: UIColor) -> NSAttributedString {
