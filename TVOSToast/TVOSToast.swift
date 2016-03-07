@@ -174,38 +174,31 @@ public class TVOSToast: UIView {
   public var attributedText: NSAttributedString?
   public var hintText: TVOSToastHintText?
 
-  private var customContentView: UIView?
-  private let textLabel: UILabel
+  private let customContentView: UIView = UIView()
+  private let textLabel: UILabel = UILabel()
 
   // MARK: Init
 
   public override init(frame: CGRect) {
-    textLabel = UILabel(frame: frame)
     super.init(frame: frame)
-    customContentView = UIView(frame: frame)
-    commonInit()
+    setup()
   }
 
   public init(frame: CGRect, style: TVOSToastStyle) {
-    textLabel = UILabel(frame: frame)
     super.init(frame: frame)
     self.style = style
-    customContentView = UIView(frame: frame)
-    commonInit()
+    setup()
   }
 
   required public init?(coder aDecoder: NSCoder) {
-    guard let decodedString = aDecoder.decodeObjectOfClass(NSString.self, forKey: "UIFrame") else { return nil }
-    let decodedFrame = CGRectFromString(decodedString as String)
-    textLabel = UILabel(frame: decodedFrame)
     super.init(coder: aDecoder)
-    guard decodedFrame == self.frame else { return nil }
-    customContentView = UIView(frame: frame)
-    commonInit()
+    setup()
   }
 
-  public func commonInit() {
-    addSubview(customContentView!)
+  func setup() {
+	customContentView.frame = frame
+	textLabel.frame = frame
+    addSubview(customContentView)
     // text
     textLabel.numberOfLines = 0
     textLabel.textAlignment = .Center
@@ -243,7 +236,7 @@ public class TVOSToast: UIView {
 
     // setup custom content
     if let customContent = customContent {
-      customContentView?.addSubview(customContent)
+      customContentView.addSubview(customContent)
     }
 
     // setup position
