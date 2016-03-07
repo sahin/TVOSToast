@@ -1,7 +1,7 @@
 TVOSToast
 ===
 
-Toast component for tvOS with built-in siri remote hint support !
+Toast component for tvOS with built-in siri remote hint support!
 
 It looks like this:  
   
@@ -53,7 +53,7 @@ This is how to show a `TVOSToast` with hint text:
 ``` swift
     let toast = TVOSToast(frame: CGRect(x: 0, y: 0, width: 800, height: 140))
     toast.style.position = TVOSToastPosition.Bottom(insets: 20)
-    toast.hintText = TVOSToastHintText(elements: "Press the ", TVOSToastRemoteButtonType.MenuWhite, " button to exit app")
+    toast.hintText = TVOSToastHintText(elements: "Press the " + TVOSToastRemoteButtonType.MenuWhite + " button to exit app")
     presentToast(toast)
 ```
 

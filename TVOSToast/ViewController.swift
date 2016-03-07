@@ -28,7 +28,7 @@ class ViewController: UIViewController {
   func showToastWithHintText() {
     let toast = TVOSToast(frame: CGRect(x: 0, y: 0, width: 800, height: 140))
     toast.style.position = TVOSToastPosition.Bottom(insets: 20)
-    toast.hintText = TVOSToastHintText(elements: "Press the ", TVOSToastRemoteButtonType.MenuWhite, " button to exit app")
+	toast.hintText = TVOSToastHintText(elements: "Press the" + TVOSToastRemoteButtonType.MenuWhite + " button to exit app")
     presentToast(toast)
   }
 

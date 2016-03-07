@@ -56,50 +56,72 @@ public extension NSAttributedString {
 // MARK: - TVOSToastButtonType
 
 public enum TVOSToastRemoteButtonType: String {
-  case MenuBlack = "MenuBlack"
-  case MenuWhite = "MenuWhite"
-  case ScreenBlack = "ScreenBlack"
-  case ScreenWhite = "ScreenWhite"
-  case PlayPauseBlack = "PlayPauseBlack"
-  case PlayPauseWhite = "PlayPauseWhite"
-  case SiriBlack = "SiriBlack"
-  case SiriWhite = "SiriWhite"
-  case VolumeWhite = "VolumeWhite"
-  case VolumeBlack = "VolumeBlack"
+  case MenuBlack
+  case MenuWhite
+  case ScreenBlack
+  case ScreenWhite
+  case PlayPauseBlack
+  case PlayPauseWhite
+  case SiriBlack
+  case SiriWhite
+  case VolumeWhite
+  case VolumeBlack
 
   private func getImageName() -> String {
     return "tvosToast\(rawValue).png"
   }
 
-  public func getAttributedString(bounds: CGRect? = nil) -> NSAttributedString {
+  public func getAttributedString(bounds bounds: CGRect? = nil) -> NSAttributedString {
     return  NSAttributedString(imageName: self.getImageName(), bounds: bounds, bundle: NSBundle(forClass: TVOSToast.self))
   }
 }
+
+public enum ToastElement {
+  case StringType(String)
+  case RemoteButtonType(TVOSToastRemoteButtonType)
+}
+
+
+public func +(lhs: String, rhs: TVOSToastRemoteButtonType) -> [ToastElement] {
+  return [.StringType(lhs), .RemoteButtonType(rhs)]
+}
+
+public func +(lhs: TVOSToastRemoteButtonType, rhs: String) -> [ToastElement] {
+  return [.RemoteButtonType(lhs), .StringType(rhs)]
+}
+
+public func +(lhs: [ToastElement], rhs: String) -> [ToastElement] {
+  return lhs + [.StringType(rhs)]
+}
+
+public func +(lhs: String, rhs: [ToastElement]) -> [ToastElement] {
+  return [.StringType(lhs)] + rhs
+}
+
 
 // MARK: - TVOSToastHintText
 
 public class TVOSToastHintText {
 
-  public var elements: [Any]
+  public var elements: [ToastElement]
 
-  public init(elements: Any...) {
-    self.elements = elements
+  public init(element: [ToastElement]) {
+    self.elements = element
   }
 
   public func buildAttributedString(font: UIFont, textColor: UIColor) -> NSAttributedString {
     let mutableAttributedString = NSMutableAttributedString()
+  
     for element in elements {
-      if let text = element as? String  {
-        mutableAttributedString.appendAttributedString(NSAttributedString(text: text, font: font, color: textColor))
-      } else if element is TVOSToastRemoteButtonType {
-        let size = font.pointSize + 30
-        mutableAttributedString.appendAttributedString((element as! TVOSToastRemoteButtonType)
-          .getAttributedString(CGRect(
-            x: 0,
-            y: -size/4,
-            width: size,
-            height: size)))
-      }
+    
+    switch element {
+    case .StringType(let asString):
+      mutableAttributedString.appendAttributedString(NSAttributedString(text: asString, font: font, color: textColor))
+    
+    case .RemoteButtonType(let asRemoteButtonType):
+      let size = font.pointSize + 30
+      mutableAttributedString.appendAttributedString(asRemoteButtonType.getAttributedString(bounds: CGRect(x: 0, y: -size/4, width: size, height: size)))
+    }
     }
     return mutableAttributedString.mutableCopy() as! NSAttributedString
   }
@@ -153,35 +175,41 @@ public class TVOSToast: UIView {
   public var hintText: TVOSToastHintText?
 
   private var customContentView: UIView?
-  private var textLabel: UILabel?
+  private let textLabel: UILabel
 
   // MARK: Init
 
   public override init(frame: CGRect) {
+    textLabel = UILabel(frame: frame)
     super.init(frame: frame)
+    customContentView = UIView(frame: frame)
     commonInit()
   }
 
   public init(frame: CGRect, style: TVOSToastStyle) {
+    textLabel = UILabel(frame: frame)
     super.init(frame: frame)
     self.style = style
+    customContentView = UIView(frame: frame)
     commonInit()
   }
 
   required public init?(coder aDecoder: NSCoder) {
+    guard let decodedString = aDecoder.decodeObjectOfClass(NSString.self, forKey: "UIFrame") else { return nil }
+    let decodedFrame = CGRectFromString(decodedString as String)
+    textLabel = UILabel(frame: decodedFrame)
     super.init(coder: aDecoder)
+    guard decodedFrame == self.frame else { return nil }
+    customContentView = UIView(frame: frame)
     commonInit()
   }
 
   public func commonInit() {
-    // content view
-    customContentView = UIView(frame: frame)
     addSubview(customContentView!)
     // text
-    textLabel = UILabel(frame: frame)
-    textLabel?.numberOfLines = 0
-    textLabel?.textAlignment = .Center
-    addSubview(textLabel!)
+    textLabel.numberOfLines = 0
+    textLabel.textAlignment = .Center
+    addSubview(textLabel)
   }
 
   // MARK: Present
@@ -204,13 +232,13 @@ public class TVOSToast: UIView {
 
     // setup text
     if let hintText = hintText {
-      textLabel?.attributedText = hintText.buildAttributedString(font, textColor: textColor)
+      textLabel.attributedText = hintText.buildAttributedString(font, textColor: textColor)
     } else if let attributedText = attributedText {
-      textLabel?.attributedText = attributedText
+      textLabel.attributedText = attributedText
     } else if let text = text {
-      textLabel?.text = text
-      textLabel?.textColor = textColor
-      textLabel?.font = font
+      textLabel.text = text
+      textLabel.textColor = textColor
+      textLabel.font = font
     }
 
     // setup custom content
