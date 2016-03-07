@@ -167,37 +167,35 @@ public class TVOSToast: UIView {
 
   // MARK: Properties
 
-  public var style: TVOSToastStyle = TVOSToastStyle()
+  public var style: TVOSToastStyle
 
   public var customContent: UIView?
   public var text: String?
   public var attributedText: NSAttributedString?
   public var hintText: TVOSToastHintText?
 
-  private let customContentView: UIView = UIView()
-  private let textLabel: UILabel = UILabel()
+  private let customContentView = UIView()
+  private let textLabel = UILabel()
 
   // MARK: Init
 
-  public override init(frame: CGRect) {
-    super.init(frame: frame)
-    setup()
-  }
 
-  public init(frame: CGRect, style: TVOSToastStyle) {
+
+  public init(frame: CGRect, style: TVOSToastStyle? = nil) {
+    self.style = style ?? TVOSToastStyle()
     super.init(frame: frame)
-    self.style = style
     setup()
   }
 
   required public init?(coder aDecoder: NSCoder) {
+    self.style = TVOSToastStyle()
     super.init(coder: aDecoder)
     setup()
   }
 
   func setup() {
-	customContentView.frame = frame
-	textLabel.frame = frame
+    customContentView.bounds = frame
+    textLabel.bounds = frame
     addSubview(customContentView)
     // text
     textLabel.numberOfLines = 0
