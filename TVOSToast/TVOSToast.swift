@@ -193,9 +193,9 @@ public class TVOSToast: UIView {
     setup()
   }
 
-  func setup() {
-    customContentView.bounds = frame
-    textLabel.bounds = frame
+  private func setup() {
+    customContentView.frame = bounds
+    textLabel.frame = bounds
     addSubview(customContentView)
     // text
     textLabel.numberOfLines = 0
