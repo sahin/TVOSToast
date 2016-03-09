@@ -1,4 +1,4 @@
-TVOSToast
+TVOSToast [![codebeat](https://codebeat.co/badges/36759a04-90ff-4a08-b878-9af49a399e2f)](https://codebeat.co/projects/github-com-movielala-tvostoast)
 ===
 
 Toast component for tvOS with built-in siri remote hint support!
