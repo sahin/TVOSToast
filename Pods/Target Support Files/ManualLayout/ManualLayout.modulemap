@@ -1,6 +1,0 @@
-framework module ManualLayout {
-  umbrella header "ManualLayout-umbrella.h"
-
-  export *
-  module * { export * }
-}
