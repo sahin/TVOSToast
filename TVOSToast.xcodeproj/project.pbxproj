@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		861F6D020E7AA2280D910D1B /* Pods_TVOSToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE650BA1E358C90E31B80BA /* Pods_TVOSToast.framework */; };
+		0005355E0022091D6DDDFC6C /* Pods_TVOSToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75918A45D5BED425D2693619 /* Pods_TVOSToast.framework */; };
+		1E048CAB73030EE54954D2A0 /* Pods_TVOSToastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AD37F5B2BC6F5DB015C24A /* Pods_TVOSToastUITests.framework */; };
+		80D7AFE7FC8BA76FC7DF7155 /* Pods_TVOSToastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51988A26B1BCA742676F9E7 /* Pods_TVOSToastTests.framework */; };
 		B23D1A741C767711009DED9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1A731C767711009DED9C /* AppDelegate.swift */; };
 		B23D1A761C767711009DED9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D1A751C767711009DED9C /* ViewController.swift */; };
 		B23D1A791C767711009DED9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23D1A771C767711009DED9C /* Main.storyboard */; };
@@ -45,7 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14DB23EEE93B664B07CFEF61 /* Pods-TVOSToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast.release.xcconfig"; sourceTree = "<group>"; };
+		199787B950D61F9887203FCD /* Pods-TVOSToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast.release.xcconfig"; sourceTree = "<group>"; };
+		1D6EEA55DF89966AF041B7DF /* Pods-TVOSToastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToastTests/Pods-TVOSToastTests.release.xcconfig"; sourceTree = "<group>"; };
+		60E1E5AFB9EA8A93A0373422 /* Pods-TVOSToastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToastUITests/Pods-TVOSToastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		614E72DE8132452FA198865F /* Pods-TVOSToastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToastUITests/Pods-TVOSToastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1497FC6D26D49A2E28E74B /* Pods-TVOSToastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToastTests/Pods-TVOSToastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75918A45D5BED425D2693619 /* Pods_TVOSToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9453CD9358E361DC6FC5639B /* Pods-TVOSToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast.debug.xcconfig"; sourceTree = "<group>"; };
+		A51988A26B1BCA742676F9E7 /* Pods_TVOSToastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSToastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23D1A701C767711009DED9C /* TVOSToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVOSToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23D1A731C767711009DED9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B23D1A751C767711009DED9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,8 +78,7 @@
 		B23D1AA71C7677C0009DED9C /* tvosToastVolumeBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeBlack.png; sourceTree = "<group>"; };
 		B23D1AA81C7677C0009DED9C /* tvosToastVolumeWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeWhite.png; sourceTree = "<group>"; };
 		B23D1AA91C7677C0009DED9C /* TVOSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVOSToast.swift; sourceTree = "<group>"; };
-		EDE650BA1E358C90E31B80BA /* Pods_TVOSToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5799E49BA11F7BDEAB5651C /* Pods-TVOSToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOSToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast.debug.xcconfig"; sourceTree = "<group>"; };
+		C2AD37F5B2BC6F5DB015C24A /* Pods_TVOSToastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOSToastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861F6D020E7AA2280D910D1B /* Pods_TVOSToast.framework in Frameworks */,
+				0005355E0022091D6DDDFC6C /* Pods_TVOSToast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D7AFE7FC8BA76FC7DF7155 /* Pods_TVOSToastTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,25 +102,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E048CAB73030EE54954D2A0 /* Pods_TVOSToastUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1886A8CBAC79829AA99584F8 /* Frameworks */ = {
+		0757323596AD245A987B5F26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EDE650BA1E358C90E31B80BA /* Pods_TVOSToast.framework */,
+				75918A45D5BED425D2693619 /* Pods_TVOSToast.framework */,
+				A51988A26B1BCA742676F9E7 /* Pods_TVOSToastTests.framework */,
+				C2AD37F5B2BC6F5DB015C24A /* Pods_TVOSToastUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		20A5AC66D8A24C43428F7F03 /* Pods */ = {
+		147E44696A952D183FE46A3F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F5799E49BA11F7BDEAB5651C /* Pods-TVOSToast.debug.xcconfig */,
-				14DB23EEE93B664B07CFEF61 /* Pods-TVOSToast.release.xcconfig */,
+				9453CD9358E361DC6FC5639B /* Pods-TVOSToast.debug.xcconfig */,
+				199787B950D61F9887203FCD /* Pods-TVOSToast.release.xcconfig */,
+				6C1497FC6D26D49A2E28E74B /* Pods-TVOSToastTests.debug.xcconfig */,
+				1D6EEA55DF89966AF041B7DF /* Pods-TVOSToastTests.release.xcconfig */,
+				614E72DE8132452FA198865F /* Pods-TVOSToastUITests.debug.xcconfig */,
+				60E1E5AFB9EA8A93A0373422 /* Pods-TVOSToastUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -123,8 +139,8 @@
 				B23D1A841C767711009DED9C /* TVOSToastTests */,
 				B23D1A8F1C767711009DED9C /* TVOSToastUITests */,
 				B23D1A711C767711009DED9C /* Products */,
-				20A5AC66D8A24C43428F7F03 /* Pods */,
-				1886A8CBAC79829AA99584F8 /* Frameworks */,
+				147E44696A952D183FE46A3F /* Pods */,
+				0757323596AD245A987B5F26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,12 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B23D1A951C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToast" */;
 			buildPhases = (
-				B95888D16C65D4A555BA7C92 /* Check Pods Manifest.lock */,
+				51D36D729C78F52125F15FF2 /* [CP] Check Pods Manifest.lock */,
 				B23D1A6C1C767711009DED9C /* Sources */,
 				B23D1A6D1C767711009DED9C /* Frameworks */,
 				B23D1A6E1C767711009DED9C /* Resources */,
-				41E6927D69C2F3D1838A2C50 /* Embed Pods Frameworks */,
-				41BC8278FB39C11EC99C28EF /* Copy Pods Resources */,
+				AAB9674817D500E44D63C3E7 /* [CP] Embed Pods Frameworks */,
+				A1F0595AEFD09B16038DE992 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B23D1A981C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToastTests" */;
 			buildPhases = (
+				D339097566247DD2C544CB94 /* [CP] Check Pods Manifest.lock */,
 				B23D1A7D1C767711009DED9C /* Sources */,
 				B23D1A7E1C767711009DED9C /* Frameworks */,
 				B23D1A7F1C767711009DED9C /* Resources */,
+				97B5C40AC3D90701D09D3F44 /* [CP] Embed Pods Frameworks */,
+				CE9F2A9B4AEA3EFEB28A3E45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B23D1A9B1C767711009DED9C /* Build configuration list for PBXNativeTarget "TVOSToastUITests" */;
 			buildPhases = (
+				0C5D0B900BB8D91812C91451 /* [CP] Check Pods Manifest.lock */,
 				B23D1A881C767711009DED9C /* Sources */,
 				B23D1A891C767711009DED9C /* Frameworks */,
 				B23D1A8A1C767711009DED9C /* Resources */,
+				54CAF4B15DDEA03BFCAFF67C /* [CP] Embed Pods Frameworks */,
+				F24C921A0E5DCF5259C2EBCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,18 +275,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = MovieLaLa;
 				TargetAttributes = {
 					B23D1A6F1C767711009DED9C = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					B23D1A801C767711009DED9C = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = B23D1A6F1C767711009DED9C;
 					};
 					B23D1A8B1C767711009DED9C = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = B23D1A6F1C767711009DED9C;
 					};
 				};
@@ -326,14 +351,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41BC8278FB39C11EC99C28EF /* Copy Pods Resources */ = {
+		0C5D0B900BB8D91812C91451 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51D36D729C78F52125F15FF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54CAF4B15DDEA03BFCAFF67C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToastUITests/Pods-TVOSToastUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B5C40AC3D90701D09D3F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToastTests/Pods-TVOSToastTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F0595AEFD09B16038DE992 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,14 +426,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		41E6927D69C2F3D1838A2C50 /* Embed Pods Frameworks */ = {
+		AAB9674817D500E44D63C3E7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,19 +441,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToast/Pods-TVOSToast-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B95888D16C65D4A555BA7C92 /* Check Pods Manifest.lock */ = {
+		CE9F2A9B4AEA3EFEB28A3E45 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToastTests/Pods-TVOSToastTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D339097566247DD2C544CB94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F24C921A0E5DCF5259C2EBCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVOSToastUITests/Pods-TVOSToastUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -440,8 +555,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -484,8 +601,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -502,6 +621,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 				VALIDATE_PRODUCT = YES;
@@ -510,61 +630,74 @@
 		};
 		B23D1A961C767711009DED9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5799E49BA11F7BDEAB5651C /* Pods-TVOSToast.debug.xcconfig */;
+			baseConfigurationReference = 9453CD9358E361DC6FC5639B /* Pods-TVOSToast.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TVOSToast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		B23D1A971C767711009DED9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DB23EEE93B664B07CFEF61 /* Pods-TVOSToast.release.xcconfig */;
+			baseConfigurationReference = 199787B950D61F9887203FCD /* Pods-TVOSToast.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TVOSToast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		B23D1A991C767711009DED9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1497FC6D26D49A2E28E74B /* Pods-TVOSToastTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TVOSToastTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOSToast.app/TVOSToast";
 			};
 			name = Debug;
 		};
 		B23D1A9A1C767711009DED9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6EEA55DF89966AF041B7DF /* Pods-TVOSToastTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TVOSToastTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOSToast.app/TVOSToast";
 			};
 			name = Release;
 		};
 		B23D1A9C1C767711009DED9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614E72DE8132452FA198865F /* Pods-TVOSToastUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = TVOSToastUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TVOSToast;
 				USES_XCTRUNNER = YES;
 			};
@@ -572,11 +705,14 @@
 		};
 		B23D1A9D1C767711009DED9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E1E5AFB9EA8A93A0373422 /* Pods-TVOSToastUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = TVOSToastUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.movielala.TVOSToastUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TVOSToast;
 				USES_XCTRUNNER = YES;
 			};
